@@ -3,27 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		E42B9AEF24C9CC2500157725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42B9AEE24C9CC2500157725 /* AppDelegate.swift */; };
-		E42B9AF124C9CC2500157725 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42B9AF024C9CC2500157725 /* SceneDelegate.swift */; };
 		E42B9AF324C9CC2500157725 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42B9AF224C9CC2500157725 /* ViewController.swift */; };
-		E42B9AF624C9CC2500157725 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42B9AF424C9CC2500157725 /* Main.storyboard */; };
 		E42B9AF824C9CC2800157725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E42B9AF724C9CC2800157725 /* Assets.xcassets */; };
 		E42B9AFB24C9CC2800157725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42B9AF924C9CC2800157725 /* LaunchScreen.storyboard */; };
+		E46472B824C9E2AF00934F61 /* TrustDefender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E46472B724C9E2AF00934F61 /* TrustDefender.framework */; };
+		E46472B924C9E2AF00934F61 /* TrustDefender.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E46472B724C9E2AF00934F61 /* TrustDefender.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E4FB8F4124C9DE1A0027482D /* PaymentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FB8F4024C9DE1A0027482D /* PaymentManager.swift */; };
+		E4FB8F4324C9DEB20027482D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FB8F4224C9DEB20027482D /* Constants.swift */; };
+		E4FB8F4524C9DF480027482D /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FB8F4424C9DF480027482D /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E46472BA24C9E2AF00934F61 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E46472B924C9E2AF00934F61 /* TrustDefender.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		485559C60129C393AAC44EC5 /* Pods-test_for_yandex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_for_yandex.debug.xcconfig"; path = "Target Support Files/Pods-test_for_yandex/Pods-test_for_yandex.debug.xcconfig"; sourceTree = "<group>"; };
+		A5C5290E6EC59D5C201B95B9 /* Pods-test_for_yandex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test_for_yandex.release.xcconfig"; path = "Target Support Files/Pods-test_for_yandex/Pods-test_for_yandex.release.xcconfig"; sourceTree = "<group>"; };
 		E42B9AEB24C9CC2500157725 /* test_for_yandex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_for_yandex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E42B9AEE24C9CC2500157725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E42B9AF024C9CC2500157725 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E42B9AF224C9CC2500157725 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E42B9AF524C9CC2500157725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E42B9AF724C9CC2800157725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E42B9AFA24C9CC2800157725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E42B9AFC24C9CC2800157725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E46472B724C9E2AF00934F61 /* TrustDefender.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TrustDefender.framework; path = Frameworks/TrustDefender.framework; sourceTree = "<group>"; };
+		E4FB8F4024C9DE1A0027482D /* PaymentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentManager.swift; sourceTree = "<group>"; };
+		E4FB8F4224C9DEB20027482D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E4FB8F4424C9DF480027482D /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		E4FB8F4624C9E06A0027482D /* test_for_yandex.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = test_for_yandex.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E46472B824C9E2AF00934F61 /* TrustDefender.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9CE6096C37F6879DC740179B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				485559C60129C393AAC44EC5 /* Pods-test_for_yandex.debug.xcconfig */,
+				A5C5290E6EC59D5C201B95B9 /* Pods-test_for_yandex.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E42B9AE224C9CC2500157725 = {
 			isa = PBXGroup;
 			children = (
 				E42B9AED24C9CC2500157725 /* test_for_yandex */,
 				E42B9AEC24C9CC2500157725 /* Products */,
+				9CE6096C37F6879DC740179B /* Pods */,
+				E46472B624C9E2AF00934F61 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,25 @@
 		E42B9AED24C9CC2500157725 /* test_for_yandex */ = {
 			isa = PBXGroup;
 			children = (
+				E4FB8F4624C9E06A0027482D /* test_for_yandex.entitlements */,
 				E42B9AEE24C9CC2500157725 /* AppDelegate.swift */,
-				E42B9AF024C9CC2500157725 /* SceneDelegate.swift */,
 				E42B9AF224C9CC2500157725 /* ViewController.swift */,
-				E42B9AF424C9CC2500157725 /* Main.storyboard */,
 				E42B9AF724C9CC2800157725 /* Assets.xcassets */,
 				E42B9AF924C9CC2800157725 /* LaunchScreen.storyboard */,
 				E42B9AFC24C9CC2800157725 /* Info.plist */,
+				E4FB8F4024C9DE1A0027482D /* PaymentManager.swift */,
+				E4FB8F4224C9DEB20027482D /* Constants.swift */,
+				E4FB8F4424C9DF480027482D /* Helpers.swift */,
 			);
 			path = test_for_yandex;
+			sourceTree = "<group>";
+		};
+		E46472B624C9E2AF00934F61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E46472B724C9E2AF00934F61 /* TrustDefender.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +118,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E42B9AFF24C9CC2800157725 /* Build configuration list for PBXNativeTarget "test_for_yandex" */;
 			buildPhases = (
+				0FC76096E39FC643BEBB8A28 /* [CP] Check Pods Manifest.lock */,
 				E42B9AE724C9CC2500157725 /* Sources */,
 				E42B9AE824C9CC2500157725 /* Frameworks */,
 				E42B9AE924C9CC2500157725 /* Resources */,
+				B0C55DF932F3E7B0E27D35DF /* [CP] Embed Pods Frameworks */,
+				E42B9B0624C9CF0C00157725 /* ShellScript */,
+				E46472BA24C9E2AF00934F61 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +175,86 @@
 			files = (
 				E42B9AFB24C9CC2800157725 /* LaunchScreen.storyboard in Resources */,
 				E42B9AF824C9CC2800157725 /* Assets.xcassets in Resources */,
-				E42B9AF624C9CC2500157725 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FC76096E39FC643BEBB8A28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-test_for_yandex-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0C55DF932F3E7B0E27D35DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test_for_yandex/Pods-test_for_yandex-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-test_for_yandex/Pods-test_for_yandex-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-test_for_yandex/Pods-test_for_yandex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E42B9B0624C9CF0C00157725 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Target architectures: $ARCHS\"\n\nAPP_PATH=\"${TARGET_BUILD_DIR}/${WRAPPER_NAME}\"\n\nfind \"$APP_PATH\" -name '*.framework' -type d | while read -r FRAMEWORK\ndo\nFRAMEWORK_EXECUTABLE_NAME=$(defaults read \"$FRAMEWORK/Info.plist\" CFBundleExecutable)\nFRAMEWORK_EXECUTABLE_PATH=\"$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME\"\necho \"Executable is $FRAMEWORK_EXECUTABLE_PATH\"\necho $(lipo -info \"$FRAMEWORK_EXECUTABLE_PATH\")\n\nFRAMEWORK_TMP_PATH=\"$FRAMEWORK_EXECUTABLE_PATH-tmp\"\n\n# remove simulator's archs if location is not simulator's directory\ncase \"${TARGET_BUILD_DIR}\" in\n*\"iphonesimulator\")\n    echo \"No need to remove archs\"\n    ;;\n*)\n    if $(lipo \"$FRAMEWORK_EXECUTABLE_PATH\" -verify_arch \"i386\") ; then\n    lipo -output \"$FRAMEWORK_TMP_PATH\" -remove \"i386\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n    echo \"i386 architecture removed\"\n    rm \"$FRAMEWORK_EXECUTABLE_PATH\"\n    mv \"$FRAMEWORK_TMP_PATH\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n    fi\n    if $(lipo \"$FRAMEWORK_EXECUTABLE_PATH\" -verify_arch \"x86_64\") ; then\n    lipo -output \"$FRAMEWORK_TMP_PATH\" -remove \"x86_64\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n    echo \"x86_64 architecture removed\"\n    rm \"$FRAMEWORK_EXECUTABLE_PATH\"\n    mv \"$FRAMEWORK_TMP_PATH\" \"$FRAMEWORK_EXECUTABLE_PATH\"\n    fi\n    ;;\nesac\n\necho \"Completed for executable $FRAMEWORK_EXECUTABLE_PATH\"\necho $(lipo -info \"$FRAMEWORK_EXECUTABLE_PATH\")\n\ndone\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E42B9AE724C9CC2500157725 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4FB8F4124C9DE1A0027482D /* PaymentManager.swift in Sources */,
 				E42B9AF324C9CC2500157725 /* ViewController.swift in Sources */,
 				E42B9AEF24C9CC2500157725 /* AppDelegate.swift in Sources */,
-				E42B9AF124C9CC2500157725 /* SceneDelegate.swift in Sources */,
+				E4FB8F4524C9DF480027482D /* Helpers.swift in Sources */,
+				E4FB8F4324C9DEB20027482D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E42B9AF424C9CC2500157725 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E42B9AF524C9CC2500157725 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E42B9AF924C9CC2800157725 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -200,6 +300,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -260,6 +361,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -282,11 +384,21 @@
 		};
 		E42B9B0024C9CC2800157725 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 485559C60129C393AAC44EC5 /* Pods-test_for_yandex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = test_for_yandex/test_for_yandex.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9WFEG29L8E;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/test_for_yandex/Frameworks",
+					"$(PROJECT_DIR)/Pods",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = test_for_yandex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +412,21 @@
 		};
 		E42B9B0124C9CC2800157725 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5C5290E6EC59D5C201B95B9 /* Pods-test_for_yandex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = test_for_yandex/test_for_yandex.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9WFEG29L8E;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/test_for_yandex/Frameworks",
+					"$(PROJECT_DIR)/Pods",
+					"$(PROJECT_DIR)/Frameworks",
+				);
 				INFOPLIST_FILE = test_for_yandex/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
