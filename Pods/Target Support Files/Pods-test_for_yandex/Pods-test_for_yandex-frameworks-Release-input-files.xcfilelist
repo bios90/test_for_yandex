@@ -1,0 +1,11 @@
+${PODS_ROOT}/Target Support Files/Pods-test_for_yandex/Pods-test_for_yandex-frameworks.sh
+${BUILT_PRODUCTS_DIR}/FunctionalSwift/FunctionalSwift.framework
+${BUILT_PRODUCTS_DIR}/When/When.framework
+${BUILT_PRODUCTS_DIR}/YandexCheckoutPayments/YandexCheckoutPayments.framework
+${BUILT_PRODUCTS_DIR}/YandexCheckoutPaymentsApi/YandexCheckoutPaymentsApi.framework
+${BUILT_PRODUCTS_DIR}/YandexCheckoutShowcaseApi/YandexCheckoutShowcaseApi.framework
+${BUILT_PRODUCTS_DIR}/YandexCheckoutWalletApi/YandexCheckoutWalletApi.framework
+${BUILT_PRODUCTS_DIR}/YandexLoginSDK/YandexLoginSDK.framework
+${PODS_ROOT}/YandexMobileMetrica/dynamic/YandexMobileMetrica.framework
+${PODS_ROOT}/YandexMobileMetrica/dynamic/YandexMobileMetricaCrashes.framework
+${BUILT_PRODUCTS_DIR}/YandexMoneyCoreApi/YandexMoneyCoreApi.framework
